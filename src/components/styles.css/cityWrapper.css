@@ -1,0 +1,18 @@
+.city-container {
+  display: flex;
+  flex-direction: column;
+  margin: -0.3rem 0 -3rem 7rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+h3 {
+  font-size: 1.4rem;
+  margin-top: -2rem;
+  font-style: italic;
+}
+
+#city {
+  margin-bottom: 0;
+}

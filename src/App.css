@@ -1,0 +1,50 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito Sans", sans-serif;
+  color: #fafcff;
+}
+
+.toggles-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  height: 100vh;
+}
+
+.light {
+  background: rgba(0, 0, 0, 0.33) url("./images/nubes.jpg") center center fixed;
+  background-blend-mode: darken;
+  background-size: cover;
+  padding: 1.1rem;
+}
+
+.dark {
+  background: rgba(0, 0, 0, 0.33) url("./images/nebula.jpg") center center fixed;
+  background-blend-mode: darken;
+  background-size: cover;
+  padding: 1.1rem;
+}
+
+.mode-icon {
+  font-size: 20px;
+  width: 30px;
+  height: 23px;
+  cursor: pointer;
+  border-radius: 50%;
+  color: white;
+  background: 0 0;
+  border: none;
+}
+.mode-icon:hover {
+  color: grey;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
